@@ -18,6 +18,8 @@
 @media (max-width: 800px){
     html{
         background-image:url("../images/bg-mobile.svg");
+        background-size: auto;
+        
     }
     
     .cabecalho {
@@ -34,6 +36,8 @@
         align-items: center;
         flex-direction: column;
         max-height: 600px;
+        margin-bottom: 0;
+        margin-top: 45px;
     }
 
     .illustration {
@@ -42,7 +46,7 @@
 
     .texto {
         
-        margin-top: 40px;
+        margin-top: 45px;
         text-align: center;
         padding-left: 0;
         min-height: 260px;
@@ -54,7 +58,7 @@
     }
 
     .texto p {
-        line-height: 22px;
+        line-height: 23px;
         font-size: 1.6rem;
         padding-bottom: 10px;
     }
